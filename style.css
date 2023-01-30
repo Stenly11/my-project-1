@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: url(/font/Montserrat/Montserrat-Regular.woff2) format("woff2"),
+    url(/font/Montserrat/Montserrat-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  src: url(/font/Montserrat/Montserrat-SemiBold.woff2) format("woff2"),
+    url(/font/Montserrat/Montserrat-SemiBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 800;
+  src: url(/font/Montserrat/Montserrat-ExtraBold.woff2) format("woff2"),
+    url(/font/Montserrat/Montserrat-ExtraBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url(/font/Montserrat/Montserrat-Medium.woff2) format("woff2"),
+    url(/font/Montserrat/Montserrat-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url(/font/Montserrat/Montserrat-Bold.woff2) format("woff2"),
+    url(/font/Montserrat/Montserrat-Bold.woff) format("woff");
+}
+
+.page {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  max-width: 1440px;
+  font-family: "Montserrat", "Arial ", sans-serif;
+  background-color: #ffffff;
+  color:black;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.cover {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/image/cover.png");
+  background-size: cover;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 793px;
+  position: relative;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+.header {
+  max-width: 1440px;
+}
+
+.header__logo {
+  margin: 0;
+  padding: 0 132px 0 136px;
+  color: #252B42;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(32 / 24 * 100%);
+}
+
+.menu-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header__menu-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  column-gap: 21px;
+  flex-wrap: wrap;
+}
+
+.header__menu {
+  display: flex;
+  width: calc(100% - 2 * 59px);
+  margin: 0 auto;
+  height: 104px;
+  align-items: center;
+}
